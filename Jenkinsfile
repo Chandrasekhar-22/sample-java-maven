@@ -12,7 +12,7 @@ pipeline {
                 steps {
                     script {
                         def mvnHome = tool 'M3'
-                        bat "${mvnHome}/bin/mvn -B verify"
+                        bat "${mvnHome}\\bin\\mvn -B verify"
                     }
                 }
             }
